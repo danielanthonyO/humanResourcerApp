@@ -1,3 +1,7 @@
+import React from 'react';
+import './Footer.css';
+
+// Footer component
 const Footer = (props) => {
     return (
         <footer className="footer">
