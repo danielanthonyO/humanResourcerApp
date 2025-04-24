@@ -7,6 +7,7 @@ import { employees } from './personsData.js';
 
 const PersonList = () => {
     return (
+        <div className='boxes'>
         <div className="person-list">
             {employees.map((employee) => (
                 <PersonCard
@@ -24,6 +25,7 @@ const PersonList = () => {
                     skills={employee.skills.join(',')}
                 />
             ))}
+        </div>
         </div>
     );
 };

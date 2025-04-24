@@ -1,14 +1,12 @@
 
-.card-container {
+.boxes {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
-    font-family: inherit;
-    cursor: pointer;
-    padding: 10px 14%;
-    transition: 0.5s;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
 }
+
 
 .card {
     padding: 1.2rem 2.5rem;
@@ -17,3 +15,23 @@
     box-shadow: 0 4px 12px rgba(253, 0, 0, 0.2);
     width: 380px;
 } 
+.card {
+    background-color: white;
+    color: #333;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 200px;
+    position: relative;
+  }
+  .card button {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .card-header {
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+    padding: 2rem 1rem 1rem;
+  }

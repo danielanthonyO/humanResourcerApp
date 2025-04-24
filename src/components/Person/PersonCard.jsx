@@ -22,7 +22,6 @@ const PersonCard = (props) => {
     }
 
 return (
-    <div className="card-container">
     <div className="card">
     <p><strong>ID:</strong> {props.id}</p>
     <p><strong>Name:</strong> {props.name}</p>
@@ -37,7 +36,6 @@ return (
     <p><strong>Location:</strong> {props.location}</p>
     <p><strong>Department:</strong> {props.department}</p>
     <p><strong>Skills:</strong> {props.skills}</p>
-    </div>
     </div>
 );
 };
